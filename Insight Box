@@ -1,0 +1,25 @@
+export default function InsightBox({ speed }) {
+  let message = "";
+
+  if (speed > 140) {
+    message = "High speed detected — fuel consumption increasing rapidly.";
+  } else if (speed > 80) {
+    message = "Moderate driving conditions — system operating efficiently.";
+  } else {
+    message = "Low speed — optimal fuel efficiency zone.";
+  }
+
+  return (
+    <div
+      style={{
+        marginTop: 20,
+        padding: 15,
+        border: "1px solid #ddd",
+        borderRadius: 8,
+      }}
+    >
+      <strong>System Insight:</strong>
+      <p>{message}</p>
+    </div>
+  );
+}
