@@ -1,3 +1,4 @@
+src/App.jsx
 import { useState, useMemo } from "react";
 import SpeedSlider from "./components/SpeedSlider";
 import SpeedChart from "./components/SpeedChart";
