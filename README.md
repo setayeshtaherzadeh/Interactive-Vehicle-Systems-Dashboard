@@ -1,45 +1,41 @@
 # Interactive Vehicle Data Story
 
-This project is a React-based interactive visualization that explores how vehicle systems respond to changes in speed over time.
+An interactive React-based visualization that demonstrates how vehicle speed changes over time and how it affects related system metrics like temperature and fuel consumption.
 
-It combines data visualization and storytelling to represent relationships between speed, engine temperature, and system behavior.
+The project focuses on presenting data in a clear and interactive way rather than simulating a real-world engine system.
 
 ---
 
 ## Features
 
-- Interactive speed control using slider
-- Real-time data updates
-- Line chart visualization (speed & temperature)
-- Dynamic system insight messages
-
----
-
-## Purpose
-
-The goal of this project is to demonstrate how complex system behavior can be translated into simple, readable, and interactive visual narratives.
-
-This approach is inspired by digital storytelling formats used in news media and data journalism.
+- Interactive speed control using a slider
+- Real-time updates of data visualization
+- Line chart showing speed and temperature changes over time
+- Dynamic insight panel that updates based on current speed
+- Simple, responsive UI
 
 ---
 
 ## Tech Stack
 
 - React
-- Recharts
 - JavaScript
+- Recharts
+- CSS
 
 ---
 
-## Key Concepts
+## Purpose
 
-- Data-driven UI
-- Interactive visualization
-- System behavior modeling
-- Storytelling through data
+This project was built as a practice in:
+
+- Data visualization with React
+- Building interactive UI components
+- Translating data into simple visual narratives
+- Structuring small front-end applications
 
 ---
 
-## Note
+## Notes
 
-This is a conceptual simulation for visualization purposes only.
+This project is a conceptual visualization and does not represent a real vehicle control system or real-time automotive simulation.
