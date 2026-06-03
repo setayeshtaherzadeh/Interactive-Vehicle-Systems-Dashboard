@@ -1,25 +1,25 @@
 export default function InsightBox({ speed }) {
-  let message = "";
+  let title = "";
+  let desc = "";
 
   if (speed > 140) {
-    message = "High speed detected — fuel consumption increasing rapidly.";
+    title = "High Performance State";
+    desc =
+      "Vehicle is operating under high load. Fuel consumption and engine temperature are increasing rapidly.";
   } else if (speed > 80) {
-    message = "Moderate driving conditions — system operating efficiently.";
+    title = "Balanced Driving Mode";
+    desc =
+      "System is maintaining stable performance with moderate energy consumption.";
   } else {
-    message = "Low speed — optimal fuel efficiency zone.";
+    title = "Efficiency Mode";
+    desc =
+      "Low-speed operation allows optimal fuel efficiency and reduced thermal load.";
   }
 
   return (
-    <div
-      style={{
-        marginTop: 20,
-        padding: 15,
-        border: "1px solid #ddd",
-        borderRadius: 8,
-      }}
-    >
-      <strong>System Insight:</strong>
-      <p>{message}</p>
+    <div className="card">
+      <h3>{title}</h3>
+      <p>{desc}</p>
     </div>
   );
 }
