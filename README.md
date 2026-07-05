@@ -1,41 +1,39 @@
 # Interactive Vehicle Data Story
 
-An interactive React-based visualization that demonstrates how vehicle speed changes over time and how it affects related system metrics like temperature and fuel consumption.
+An interactive React application that visualizes how changes in vehicle speed can influence related metrics such as engine temperature and fuel consumption.
 
-The project focuses on presenting data in a clear and interactive way rather than simulating a real-world engine system.
+Rather than representing a real automotive control system, this project demonstrates how interactive data visualization can be used to communicate relationships between vehicle parameters through an intuitive user interface.
 
----
 
 ## Features
 
-- Interactive speed control using a slider
-- Real-time updates of data visualization
-- Line chart showing speed and temperature changes over time
-- Dynamic insight panel that updates based on current speed
-- Simple, responsive UI
+* Interactive vehicle speed control using a slider
+* Dynamic visualization of speed and temperature trends
+* Responsive line charts built with Recharts
+* Insight panel that updates according to the selected speed
+* Clean and responsive user interface
 
----
 
 ## Tech Stack
 
-- React
-- JavaScript
-- Recharts
-- CSS
+* React
+* JavaScript
+* Recharts
+* CSS
 
----
 
 ## Purpose
 
-This project was built as a practice in:
+This project was created to explore:
 
-- Data visualization with React
-- Building interactive UI components
-- Translating data into simple visual narratives
-- Structuring small front-end applications
+* Interactive data visualization with React
+* Building reusable UI components
+* Presenting vehicle-related data through intuitive visual storytelling
+* Creating responsive front-end applications with modern JavaScript
 
----
 
-## Notes
+## Project Scope
 
-This project is a conceptual visualization and does not represent a real vehicle control system or real-time automotive simulation.
+This is a conceptual front-end visualization project intended for educational and portfolio purposes.
+
+The displayed vehicle metrics are simulated and are **not connected to live vehicle data, sensors, CAN bus, or real-time telemetry systems**. The application focuses on user interaction and visual representation rather than automotive system simulation.
